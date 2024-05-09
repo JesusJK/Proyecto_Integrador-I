@@ -1,23 +1,14 @@
 
-import { createApp } from 'vue';
-import { createRouter, createWebHistory } from 'vue-router';
-import App from './App.vue';
-import OtraPagina from './components/Formulario.vue';
-import './style.css';
+import { createApp } from 'vue'
+import App from './App.vue'
 
-const routes = [
-    { path: '/', component: App },
-    { path: '/otra-pagina', component: OtraPagina }
-];
 
-const router = createRouter({
-    history: createWebHistory(),
-    routes
-});
+import router from './router';
+import './style.css'
+const app = createApp(App)
 
-const app = createApp(App);
-app.use(router);
-app.mount('#app');
+app.use(router)
+app.mount('#app')
 
 
 

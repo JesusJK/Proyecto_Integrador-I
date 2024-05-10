@@ -56,9 +56,9 @@ console.log(valor);
                             class="mt-8 border-b-2 border-gray-300 p-1 outline-none" v-if="valor2">
                             <br>
                             <br>
-                            <RouterLink to="/form" class="font-semibold text-xl">
-                               Iniciar
-                            </RouterLink>
+                                <RouterLink to="/form" class="font-semibold text-xl " v-if="valor2">
+                                    Iniciar
+                                </RouterLink>
                         </p>
                             
 

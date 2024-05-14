@@ -1,11 +1,13 @@
 import { createWebHistory, createRouter } from 'vue-router'
 import login from '../views/login.vue';
-import dashboard from '@/components/Formulario.vue';
+import dashboard from '@/components/Principalweb.vue';
+import form from '@/components/Formulario.vue'
 
 const routes = [
 
-    {  path: '/form', component: dashboard },
-    { path: '/', component: login }
+    {  path: '/web', component: dashboard },
+    { path: '/', component: login },
+    {path: '/form', component: form}
 ];
 
 const router = createRouter({

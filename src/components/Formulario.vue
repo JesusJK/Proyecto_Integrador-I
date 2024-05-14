@@ -6,7 +6,7 @@
 <template>
 
     <body>
-        <div class="flex justify-center text-3xl bg-[#3C6E84] py-2">Encuesta De Sensasión Térmica</div>
+        <div class="flex justify-center text-3xl bg-[#3C6E84] py-2">Encuestas De Sensasión Térmica</div>
 
         <div class="flex-col columns-1 border border-slate-950 pb-6 pt-1 ">
             <p class="flex justify-center font-semibold p-2">1.¿Cual es la sensacion termica que usted siente en este momento?</p>
